@@ -68,23 +68,6 @@ body {
   background: var(--base-color-alt);
 }
 
-
-.button2 {
-  background-color: var(--base-color);
-  color: var(--text-color-light);
-  height: 3.5rem;
-  display: inline-flex;
-  align-items: center;
-  padding: 0 2rem;
-  border-radius: 0.25rem;
-  font: 500 1rem 'DM Sans', sans-serif;
-  transition: background 0.3s;
-}
-
-.button:hover {
-  background: var(--base-color-alt);
-}
-
 .divider-1 {
   height: 1px;
   background: linear-gradient(
@@ -373,7 +356,6 @@ nav.show div.icon-close {
 }
 
 /*====  TESTIMONIALS ============================ */
-
 #testimonials {
   background: white;
 }
@@ -382,23 +364,24 @@ nav.show div.icon-close {
   margin-left: 0;
   margin-right: 0;
 }
+
 #testimonials header {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   margin-bottom: 0;
 }
 
-
-#testimonials blockquote{
- padding: 2rem;
- box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
- border-radius: 00.25rem;
+#testimonials blockquote {
+  padding: 2rem;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 0.25rem;
 }
 
 #testimonials blockquote p {
   position: relative;
-  text-indent: 2rem;
-  color: var(--title-color)
+  text-indent: 1.875rem;
+  margin-bottom: 1.5rem;
+  color: var(--title-color);
 }
 
 #testimonials blockquote p span {
@@ -409,7 +392,7 @@ nav.show div.icon-close {
   color: var(--base-color);
 }
 
-#testimonials cite{
+#testimonials cite {
   display: flex;
   align-items: center;
   font-style: normal;
@@ -438,7 +421,7 @@ nav.show div.icon-close {
   background: var(--base-color);
 }
 
-/*====  CONTACT ============================ */
+/*====  CONTACTT ============================ */
 #contact .grid {
   gap: 4rem;
 }
